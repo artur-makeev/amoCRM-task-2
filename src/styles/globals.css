@@ -12,6 +12,10 @@ body {
 }
 
 body {
+  position: relative
+}
+
+body {
   background-color: #1E1E1E;
   color: #E4E5EA;
 }
@@ -20,3 +24,4 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
