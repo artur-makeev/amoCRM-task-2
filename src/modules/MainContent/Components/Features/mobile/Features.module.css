@@ -1,0 +1,38 @@
+.container {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	width: 300px;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.feature {
+	width: 141px;
+	text-align: left;
+}
+
+.featureHeading {
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.line {
+	background-color: #E4E5EA;
+	background-image: linear-gradient(90deg, #FCB045, #FF3F78);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+@media screen and (min-width: 321px) {
+	.container {
+		display: none;
+	}
+}

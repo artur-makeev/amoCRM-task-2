@@ -1,0 +1,13 @@
+.container {
+	margin-top: 33px;
+}
+
+.item {
+	font-size: 12px;
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		margin-bottom: 60px;
+	}
+}

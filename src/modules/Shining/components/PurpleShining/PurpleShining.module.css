@@ -1,0 +1,18 @@
+.purpleShining {
+	position: absolute;
+		width: 259px;
+		height: 259px;
+		left: 602px;
+		top: -154px;
+	background: #833AB4;
+		opacity: 0.5;
+		filter: blur(196px);
+}
+
+@media screen and (max-width: 320px) {
+	.purpleShining {
+		right: unset;
+		left: 200px;
+		top: 100px;
+	}
+}

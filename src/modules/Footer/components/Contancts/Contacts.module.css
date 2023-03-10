@@ -1,0 +1,39 @@
+.container {
+	margin-top: 15px;
+	text-align: right;
+}
+
+.footerHeading {
+	font-weight: 700;
+	font-size: 14px;
+	color: #656566;
+}
+
+.itemsContainer {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.icons {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		text-align: left;
+		margin-top: 30px;
+	}
+
+	.itemsContainer {
+		gap: 10px;
+	}
+
+	.icons {
+		justify-content: flex-start;
+	}
+}
+

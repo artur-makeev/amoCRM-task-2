@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		height: 55px;
+		background-color: #0E1014;
+	}
+}

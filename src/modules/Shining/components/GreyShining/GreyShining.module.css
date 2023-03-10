@@ -1,0 +1,17 @@
+.greyShining {
+	position: absolute;
+		width: 150px;
+		height: 150px;
+		left: -50px;
+		top: -50px;
+	background: #e6e6e0;
+		opacity: 0.3;
+		filter: blur(96px);
+	display: none;
+}
+
+@media screen and (max-width: 320px) {
+	.greyShining {
+		display: unset;
+	}
+}

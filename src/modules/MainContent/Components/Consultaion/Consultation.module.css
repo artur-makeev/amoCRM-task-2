@@ -1,0 +1,63 @@
+.container {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.heading {
+	font-weight: 700;
+	font-size: 18px;
+	text-align: right;
+}
+
+.coloredTextStart {
+	background-color: #E4E5EA;
+	background-image: linear-gradient(90deg, #FCB045, #FC6E33);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.coloredTextEnd {
+	background-color: #E4E5EA;
+	background-image: linear-gradient(90deg, #FC893A, #FD1D1D);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.button {
+	margin-top: 61px;
+	width: 262px;
+	height: 61px;
+	background-color: #4077F3;
+	color: #E4E5EA;
+	font-weight: 500;
+	font-size: 16px;
+	align-self: flex-end;
+	border: none;
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		margin-top: 45px;
+	}
+
+	.heading {
+		text-align: left;
+	}
+
+	.button {
+		display: none
+	}
+}

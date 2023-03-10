@@ -1,0 +1,43 @@
+.container {
+	margin-top: 69px;
+}
+
+.menuContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutAndMenu {
+	display: flex;
+	gap: 98px;
+}
+
+.copyrightContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		margin-top: 55px;
+		background-color: #1E1E1E;
+		position: relative;
+		z-index: 1;
+		padding-left: 16px;
+	}
+
+	.menuContainer {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.aboutAndMenu {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.copyrightContainer {
+		margin-top: 50px;
+		justify-content: flex-start;
+	}
+}

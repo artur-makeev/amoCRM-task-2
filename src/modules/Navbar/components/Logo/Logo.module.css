@@ -1,0 +1,17 @@
+.logosContainer {
+	display: flex;
+	align-items: center;
+}
+
+.logoComment {
+	font-weight: 300;
+	width: 165px;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 321px) {
+	.mobile {
+		display: none;
+	}
+}

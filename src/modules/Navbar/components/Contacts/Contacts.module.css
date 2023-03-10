@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	gap: 48.67px;
+}
+
+.iconsContainer {
+	display: flex;
+	gap: 34px;
+}
+
+@media screen and (max-width: 321px) {
+	.container {
+		display: none;
+	}
+}
