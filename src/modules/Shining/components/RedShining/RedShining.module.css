@@ -8,3 +8,17 @@
 		opacity: 0.5;
 		filter: blur(196px);
 }
+
+@media screen and (max-width: 320px) {
+	.redShining {
+		position: absolute;
+			width: 211px;
+			height: 210px;
+			left: -55px;
+			top: 241px;
+		
+			background: #961A1A;
+			opacity: 0.5;
+			filter: blur(196px);
+	}
+}
