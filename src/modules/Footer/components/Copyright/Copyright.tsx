@@ -8,7 +8,7 @@ export const Copyright = () => {
 			<p className={`${styles.item} ${montserrat.className}`}>
 				©WELBEX 2022. Все права защищены.
 			</p>
-			<p className={`${styles.item} ${montserrat.className}`}>
+			<p className={`${styles.item} ${styles.underline} ${montserrat.className}`}>
 				Политика конфиденциальности
 			</p>
 		</div>
