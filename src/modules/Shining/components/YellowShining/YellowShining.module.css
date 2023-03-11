@@ -1,0 +1,23 @@
+.yellowShining {
+	display: none;
+}
+
+@media screen and (min-width: 321px) {
+	.yellowShining {
+			display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.yellowShining {
+		display: block;
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		left: -66px;
+		top: 519px;	
+		background: #FCB045;
+		opacity: 0.4;
+		filter: blur(196px);
+	}
+}
