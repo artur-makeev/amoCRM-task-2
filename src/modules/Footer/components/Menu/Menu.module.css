@@ -20,6 +20,14 @@
 	gap: 10px;
 }
 
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: block;
+}
+
 @media screen and (max-width: 320px) {
 	.container {
 		margin-top: 0px;
@@ -27,5 +35,13 @@
 
 	.items {
 		font-size: 14px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
 	}
 }

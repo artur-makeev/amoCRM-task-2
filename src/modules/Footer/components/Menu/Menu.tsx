@@ -14,8 +14,9 @@ export const Menu = () => {
 					<p>Наши клиенты</p>
 				</div>
 				<div className={styles.items}>
+					<p className={styles.mobile}>Благодарность клиенов</p>
 					<p>Кейсы</p>
-					<p>Благодарственные письма</p>
+					<p className={styles.desktop}>Благодарственные письма</p>
 					<p>Сертификаты</p>
 					<p>Блог на Youtube</p>
 					<p>Вопрос / Ответ</p>
